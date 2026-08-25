@@ -1,0 +1,17 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-lg);
+}
+
+.skills-card-title {
+  font-size: 16px;
+  margin-bottom: var(--space-md);
+  color: var(--color-purple);
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}

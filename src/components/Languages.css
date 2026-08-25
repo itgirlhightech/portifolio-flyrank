@@ -1,0 +1,34 @@
+.languages-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  max-width: 480px;
+}
+
+.language-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-xs);
+  font-size: 14px;
+}
+
+.language-name {
+  font-weight: 600;
+}
+
+.language-level {
+  color: var(--color-muted);
+}
+
+.language-bar {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-border);
+  overflow: hidden;
+}
+
+.language-bar-fill {
+  height: 100%;
+  background: var(--color-purple);
+  border-radius: 999px;
+}

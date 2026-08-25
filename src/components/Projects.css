@@ -1,0 +1,43 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-lg);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.project-category {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-teal);
+  margin-bottom: var(--space-sm);
+}
+
+.project-title {
+  font-size: 19px;
+  margin-bottom: var(--space-sm);
+}
+
+.project-description {
+  color: var(--color-muted);
+  font-size: 14.5px;
+  margin-bottom: var(--space-md);
+  flex-grow: 1;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}
+
+.project-link {
+  align-self: flex-start;
+}

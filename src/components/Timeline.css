@@ -1,0 +1,53 @@
+.timeline-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.timeline-item {
+  text-align: left;
+}
+
+.timeline-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xs);
+}
+
+.timeline-title {
+  font-size: 18px;
+}
+
+.timeline-period {
+  font-size: 13px;
+  color: var(--color-muted);
+  white-space: nowrap;
+}
+
+.timeline-company {
+  font-family: var(--font-heading);
+  font-size: 14px;
+  color: var(--color-purple);
+  margin-bottom: var(--space-sm);
+}
+
+.timeline-description {
+  color: var(--color-muted);
+  font-size: 14.5px;
+}
+
+.timeline-focus {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-sm);
+}
+
+@media (max-width: 480px) {
+  .timeline-header {
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+}
