@@ -8,8 +8,13 @@ import Education from './components/Education'
 import Languages from './components/Languages'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import FlyRankCapstone from './pages/FlyRankCapstone'
 
 function App() {
+  if (window.location.pathname === '/flyrank-capstone') {
+    return <FlyRankCapstone />
+  }
+
   return (
     <>
       <Navbar />
