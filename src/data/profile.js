@@ -25,7 +25,7 @@ export const skillCategories = [
   },
   {
     title: 'Data Engineering',
-    skills: ['ETL Pipelines', 'Apache Airflow', 'Data Warehouse Design', 'SQL', 'AWS Fundamentals'],
+    skills: ['ETL Pipelines', 'Apache Airflow', 'Data Warehouse Design', 'SQL', 'AWS Fundamentals', 'Docker'],
   },
   {
     title: 'Tools & Infrastructure',
