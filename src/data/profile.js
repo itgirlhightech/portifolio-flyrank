@@ -1,14 +1,14 @@
 
 export const personalInfo = {
   name: 'Evilyn Feitosa',
-  role: 'Data Analyst | Machine Learning with AI | Data Engineering',
+  role: 'Data Engineering | Machine Learning with AI | Data Analyst',
   tagline: 'Transforming data into intelligent solutions.',
   location: 'São Luís, Maranhão, Brazil',
   email: 'evlynfeitosa@gmail.com',
   linkedin: 'https://www.linkedin.com/in/evilynfeitosa',
   github: 'https://github.com/itgirlhightech',
 
-  cv: '/curriculo-evilyn.pdf',
+  cv: '/curriculo_EV(updated).pdf',
 }
 
 export const aboutText = [

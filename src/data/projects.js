@@ -13,7 +13,7 @@ export const projects = [
     category: 'Data Engineering',
     description:
       'A data warehouse project focused on organizing retail data through dimensions, fact tables, and ETL processes.',
-    tech: ['Python', 'PostgreSQL', 'SQL', 'Apache Airflow', 'Data Warehouse'],
+    tech: ['Python', 'PostgreSQL', 'SQL', 'Apache Airflow', 'Data Warehouse', 'Docker'],
     github: 'https://github.com/itgirlhightech/fashion-retail-data-warehouse.git',
   },
   {
